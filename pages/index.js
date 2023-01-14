@@ -1,10 +1,12 @@
-import React from 'react'
-
+import React, { Fragment } from 'react'
+import Hero from '../components/home-page/hero'
 function HomePage() {
   return (
-    <div>
-      
-    </div>
+    <Fragment>
+        <Hero/>
+
+        
+    </Fragment>
   )
 }
 
